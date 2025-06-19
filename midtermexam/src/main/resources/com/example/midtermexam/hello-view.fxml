@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.midtermexam.StudentViewController">
+    <TableView fx:id="tableView" layoutX="14.0" layoutY="14.0" prefHeight="400.0" prefWidth="600.0">
+        <columns>
+            <TableColumn fx:id="studentNumCol" text="Student Number" />
+            <TableColumn fx:id="firstNameCol" text="First Name" />
+            <TableColumn fx:id="lastNameCol" text="Last Name" />
+            <TableColumn fx:id="telephoneCol" text="Phone" />
+            <TableColumn fx:id="addressCol" text="Address" />
+            <TableColumn fx:id="provinceCol" text="Province" />
+            <TableColumn fx:id="avgGradeCol" text="Average Grade" />
+            <TableColumn fx:id="majorCol" text="Major" />
+        </columns>
+    </TableView>
+
+    <CheckBox fx:id="ontarioCheckBox" layoutX="630.0" layoutY="20.0" text="Ontario" />
+    <CheckBox fx:id="honourRollCheckBox" layoutX="630.0" layoutY="50.0" text="Honor Roll (>=80)" />
+
+    <ComboBox fx:id="areaCodeComboBox" layoutX="630.0" layoutY="80.0" />
+    <Label fx:id="numOfStudentsLabel" layoutX="630.0" layoutY="110.0" text="Number of Students: " />
+</AnchorPane>

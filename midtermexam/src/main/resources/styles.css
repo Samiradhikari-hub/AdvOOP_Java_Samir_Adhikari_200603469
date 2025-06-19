@@ -1,0 +1,16 @@
+.root {
+    -fx-background-color: #607D8B;
+    -fx-font-family: Gabriola;
+    -fx-font-size: 18px;
+}
+
+.table-view {
+    -fx-border-color: #2c3e50;
+    -fx-background-color: #ecf0f1;
+}
+
+.button {
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
